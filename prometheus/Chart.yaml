@@ -24,8 +24,3 @@ maintainers:
     email: naseem@transit.app
 engine: gotpl
 type: application
-dependencies:
-  - name: kube-state-metrics
-    version: "2.13.*"
-    repository: https://kubernetes.github.io/kube-state-metrics
-    condition: kubeStateMetrics.enabled
